@@ -10,7 +10,7 @@ function initMap() {
         lng: 101.6869701
     };
     map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 5,
+        zoom: 3,
         center: kulalumpur,
         mapTypeControl: false
     });
