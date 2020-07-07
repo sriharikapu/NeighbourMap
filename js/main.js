@@ -5,9 +5,9 @@ var bounds;
 
 // google maps init
 function initMap() {
-    var kulalumpur = {3.1390° N, 101.6869°
-        lat: 3.1390,
-        lng: 101.6869
+    var kulalumpur = { 
+        lat: 3.1390421,
+        lng: 101.6869701
     };
     map = new google.maps.Map(document.getElementById('map'), {
         zoom: 5,
