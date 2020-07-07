@@ -11,7 +11,7 @@ function initMap() {
     };
     map = new google.maps.Map(document.getElementById('map'), {
         zoom: 5,
-        center: kulaLumpur,
+        center: kulalumpur,
         mapTypeControl: false
     });
 
