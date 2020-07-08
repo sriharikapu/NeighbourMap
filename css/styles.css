@@ -32,6 +32,12 @@ body {
     right: 0px;
 }
 
+@media (max-width: 768px) {
+    #sidenav {
+        display: none;
+    }
+}
+
 .list-group-item {
     margin: 0;
     color: black;
@@ -79,8 +85,3 @@ body {
     font-size: .8em;
 }
 
-@media screen and (max-height: 450px) {
- #sidenav { 
-display: none;
- }
-}
