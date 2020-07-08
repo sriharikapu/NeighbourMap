@@ -25,18 +25,15 @@ body {
 
 .sidenav {
     margin: 0;
-    position: absolute;
+    position: relative;
     left: 0px;
     top: 0px;
     bottom: 0px;
     right: 0px;
+    width: max-content;
+    float: right;
 }
 
-@media (max-width: 768px) {
-    #sidenav {
-        display: none;
-    }
-}
 
 .list-group-item {
     margin: 0;
